@@ -4,19 +4,6 @@
 ### Random message 
 ```js
 const pb = new PhraseBuilder();
-const welcomeSentence = {
-  variations: [
-    'Test phrase 1',
-    'Test phrase 2',
-    'Test phrase 3',
-  ],
-};
-const sentence =  pb.getText(welcomeSentence);
-// Test phrase 2
-```
-### Random message 
-```js
-const pb = new PhraseBuilder();
 const sentence = {
   variations: [
     'Test phrase 1',
