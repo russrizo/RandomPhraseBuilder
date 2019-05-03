@@ -1,0 +1,14 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "unified-signatures": false,
+        "quotemark": [true, "single", "avoid-escape", "avoid-template"],
+        "variable-name": [true, "allow-snake-case"]
+    },
+    "rulesDirectory": [
+    ]
+}
