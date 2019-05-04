@@ -4,7 +4,8 @@
   "description": "Simple phrase builder for Alexa/Alisa",
   "main": "dest/index.js",
   "scripts": {
-    "test": "NODE_ICU_DATA=./node_modules/full-icu DEBUG=us:/star/ mocha -r ts-node/register test/**/*.spec.ts --with-intl=full-icu"
+    "test": "NODE_ICU_DATA=./node_modules/full-icu DEBUG=us:/star/ mocha -r ts-node/register test/**/*.spec.ts --with-intl=full-icu",
+    "lint": "./node_modules/.bin/tslint --test"
   },
   "repository": {
     "type": "git",
